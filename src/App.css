@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.App {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(34, 33, 33);
+  row-gap: 10px;
+}
+.contact-component {
+  margin: 5px;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  align-items: center;
+  min-width: 200px;
+  border: 5px solid white;
+}
+
+.contact-component h2, span {
+  color: white;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.remove-button {
+  width: 100%;
+  border: none;
+  background-color: rgb(214, 51, 22);
+  padding: 5px;
+  border-radius: 3px;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.remove-button:hover {
+  opacity: 0.8;
+}
+
+.state-button {
+  width: 100%;
+  border: none;
+  padding: 5px;
+  border-radius: 3px;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.state-button:hover {
+  opacity: 0.8;
+}
+
+input {
+  background-color: rgb(243, 243, 243);
+  border: none;
+  outline: none;
+  color: black;
+  padding: 8px;
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+input::placeholder {
+  color: rgb(122, 122, 122);
+}
+
+.submit-button {
+  width: 100%;
+  border: none;
+  padding: 5px;
+  border-radius: 3px;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  background-color: rgb(25, 115, 175);
+}
+
+.submit-button:hover {
+  opacity: 0.8;
+}
+
+h1{
+  color: white;
+}
